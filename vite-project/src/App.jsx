@@ -23,6 +23,7 @@ const App = () => {
     { path: "", element: <Home /> },
     { path: "signup", element: <SignUp /> },
     { path: "login", element: <Login /> },
+    console.log(App),
   ]);
   return (
     <>
